@@ -550,7 +550,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #support {
-    background: #4646ff url('../static/images/support-bg.jpg') no-repeat;
+    background: #000 url('../static/images/support-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -558,7 +558,7 @@ a:hover, a:active, a:focus {
 }
 
 #support .overlay {
-  background: #4646ff;
+  background: #0000;
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -585,6 +585,18 @@ a:hover, a:active, a:focus {
 #support .form-control:focus {
   border-color: #ffffff;
 }
+
+#support .section-btn {
+  background: #633cff;
+  position: relative;
+  top: 20px;
+}
+
+#support .section-btn:hover {
+  background-color: #ffffff;
+  color: #222;
+}
+
 
 /*---------------------------------------
    Footer section              
